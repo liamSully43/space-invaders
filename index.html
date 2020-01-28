@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="space-invaders.css" type="text/css" rel="stylesheet">
+<title>Space Invaders</title>
+</head>
+<body>
+	<div id="background">
+		<p id="score">SCORE: </p>
+		<p id="points">0</p>
+		<div id="aliens-container">
+			<img src="Assets/alien1.png" id="a1" class="aliens 1 aliens-row1" width="40" height="auto">
+			<img src="Assets/alien1.png" id="a2" class="aliens 2 aliens-row1" width="40" height="auto">
+			<img src="Assets/alien1.png" id="a3" class="aliens 3 aliens-row1" width="40" height="auto">
+			<img src="Assets/alien1.png" id="a4" class="aliens 4 aliens-row1" width="40" height="auto">
+			<img src="Assets/alien1.png" id="a5" class="aliens 5 aliens-row1" width="40" height="auto">
+			<img src="Assets/alien1.png" id="a6" class="aliens 6 aliens-row1" width="40" height="auto">
+			<br>
+			<img src="Assets/alien1.png" id="a7" class="aliens 7 aliens-row2" width="40" height="auto">
+			<img src="Assets/alien1.png" id="a8" class="aliens 8 aliens-row2" width="40" height="auto">
+			<img src="Assets/alien1.png" id="a9" class="aliens 9 aliens-row2" width="40" height="auto">
+			<img src="Assets/alien1.png" id="a10" class="aliens 10 aliens-row2" width="40" height="auto">
+			<img src="Assets/alien1.png" id="a11" class="aliens 11 aliens-row2" width="40" height="auto">
+			<img src="Assets/alien1.png" id="a12" class="aliens 12 aliens-row2" width="40" height="auto">
+		</div>
+		<img src="Assets/rocket.png" id="rocket" width="40" height="auto">
+		<div id="end-screen">
+		<h1>GAME OVER</h1>
+		<h2>YOU <span id="ending"></span></h2>
+		<p>POINTS: <span id="points-ending"></span></p>
+		<h3>Press the spacebar to play again!</h3>
+	</div>
+	</div>
+	<div id="controls-container">
+			<img src="Assets/left-arrow.png" width="60" height="auto" class="controls">
+			<img src="Assets/right-arrow.png" width="60" height="auto" class="controls">
+			<img src="Assets/up-arrow.png" width="60" height="auto" class="controls">
+			<img src="Assets/enter.png" width="37" height="auto" class="controls">
+			<br>
+			<p class="controls-titles" id="left">Left</p>
+			<p class="controls-titles" id="right">Right</p>
+			<p class="controls-titles" id="shoot">Shoot</p>
+	</div>
+</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="space-invaders.js"></script>
+</html>
