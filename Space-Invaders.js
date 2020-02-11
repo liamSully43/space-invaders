@@ -8,12 +8,7 @@ function alienAnimation() {
 		clearInterval($aliensMove);
 		gameOver(false)
 	}
-	if ($(".aliens").attr("src") == "Assets/alien1.png") {
-		$(".aliens").attr("src", "Assets/alien2.png");
-	}
-	else {
-		$(".aliens").attr("src", "Assets/alien1.png");
-	}
+	($(".aliens").attr("src") == "Assets/alien1.png") ? $(".aliens").attr("src", "Assets/alien2.png") : $(".aliens").attr("src", "Assets/alien1.png");
 	if ($alienMargin == 20) {
 		$goingRight = true;
 	}
